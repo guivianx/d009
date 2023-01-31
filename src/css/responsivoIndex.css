@@ -1,0 +1,35 @@
+
+@media (max-width:1200px) {
+
+    .container .secao {
+       flex-direction: column;
+    }
+
+    .container .secao .img {
+       width: 365px;
+    }
+}
+
+
+@media (max-width:600px) {
+    .titulo1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .cabecalho {
+        padding: 30px;
+    }
+
+    .container {
+        height: calc(100vh - 107px);
+    }
+
+    .container .secao {
+        flex-direction: column;
+    }
+
+    .container .secao .img {
+        width: 200px;
+    }
+}

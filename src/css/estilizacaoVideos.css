@@ -1,0 +1,29 @@
+body {
+    font-family: 'unbounded';
+}
+
+.cabecalho {
+    display: flex;
+    padding: 45px 30px 0px 30px;
+    justify-content: center;
+}
+
+.titulo1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.container {
+    height: calc(100vh - 89px);
+    padding: 0px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+}
+
+.texto {
+    font-size: 10px;
+}
+

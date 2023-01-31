@@ -1,0 +1,20 @@
+@media (max-width:600px) {
+    .titulo1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .cabecalho {
+        padding: 30px;
+    }
+
+    .container {
+        height: calc(100vh - 107px);
+        gap: 15px;
+    }
+
+    .container .iframe {
+        width: 350px;
+        height: 300px;
+    }
+}
